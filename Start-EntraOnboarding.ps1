@@ -1,4 +1,5 @@
 #Requires -Version 7.0
+
 <#
 .SYNOPSIS
     Onboards new hires into Microsoft 365 from a CSV or JSON file using role templates.

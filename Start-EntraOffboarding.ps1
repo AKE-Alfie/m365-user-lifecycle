@@ -1,4 +1,5 @@
 #Requires -Version 7.0
+
 <#
 .SYNOPSIS
     Offboards one or more employees in Entra ID / Microsoft 365 with a full CSV audit trail.
