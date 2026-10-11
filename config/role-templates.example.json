@@ -1,0 +1,34 @@
+{
+  "Defaults": {
+    "Domain": "contoso.com",
+    "UsageLocation": "US",
+    "CompanyName": "Contoso Ltd",
+    "PasswordLength": 16,
+    "ForceChangePasswordNextSignIn": true,
+    "MailboxTimeZone": "Pacific Standard Time",
+    "MailboxLanguage": "en-US"
+  },
+  "Roles": {
+    "Sales": {
+      "Department": "Sales",
+      "JobTitle": "Account Executive",
+      "Licenses": ["SPE_E3"],
+      "Groups": ["SG-Sales", "Team Sales", "DL-Sales-All"],
+      "SharedMailboxes": ["sales@contoso.com"]
+    },
+    "Finance": {
+      "Department": "Finance",
+      "JobTitle": "Accountant",
+      "Licenses": ["SPE_E3", "POWER_BI_PRO"],
+      "Groups": ["SG-Finance", "SG-Finance-Payroll"],
+      "SharedMailboxes": ["ap@contoso.com"]
+    },
+    "Frontline": {
+      "Department": "Operations",
+      "JobTitle": "Store Associate",
+      "Licenses": ["SPE_F1"],
+      "Groups": ["SG-Frontline"],
+      "SharedMailboxes": []
+    }
+  }
+}

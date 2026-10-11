@@ -1,0 +1,4 @@
+FirstName,LastName,Role,ManagerUpn,StartDate,JobTitle,UsageLocation
+Ana,Rivera,Sales,slead@contoso.com,2026-11-02,,
+José,Núñez,Finance,cfo@contoso.com,2026-11-02,Senior Accountant,
+Priya,Patel,Frontline,storemgr@contoso.com,2026-11-09,,CA
