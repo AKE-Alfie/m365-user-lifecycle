@@ -1,0 +1,26 @@
+{
+  "TenantId": "contoso.onmicrosoft.com",
+  "LogFolder": "./logs",
+  "Steps": {
+    "DisableAccount": true,
+    "RevokeSessions": true,
+    "SetAutoReply": true,
+    "ConvertToSharedMailbox": true,
+    "GrantManagerAccess": true,
+    "HideFromGAL": true,
+    "RemoveGroupMemberships": true,
+    "RemoveLicenses": true
+  },
+  "AutoReply": {
+    "InternalMessage": "{DisplayName} is no longer with Contoso. Please contact {ManagerName} at {ManagerEmail}.",
+    "ExternalMessage": "Thank you for your message. {DisplayName} is no longer with Contoso. For assistance please email {ManagerEmail}.",
+    "ExternalAudience": "All"
+  },
+  "ManagerAccess": {
+    "UseEntraManager": true,
+    "AccessRights": "FullAccess",
+    "AutoMapping": true
+  },
+  "ExcludedGroupIds": [],
+  "ExcludedGroupNamePatterns": ["All Company", "SG-Retention-*"]
+}
