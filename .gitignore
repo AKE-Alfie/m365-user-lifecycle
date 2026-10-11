@@ -1,0 +1,22 @@
+# Generated reports and logs
+reports/
+logs/
+output/
+*.log
+TestResults*.xml
+coverage*.xml
+
+# Secrets / local config - never commit
+*.pfx
+*.cer
+*.pem
+*.key
+.env
+*.local.json
+secrets*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
